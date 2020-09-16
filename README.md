@@ -4,7 +4,7 @@ This site has code examples for accessing the Chain.io portal API.
 
 This is the API you would use to perform administrative functions for Chain.io including things like
 
-* Retrieving data files
+* [Retrieving data files](./examples/getAttachment.js)
 * Checking the status of a flow execution
 * Managing user accounts
 
