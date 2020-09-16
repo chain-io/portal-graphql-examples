@@ -5,8 +5,7 @@ This site has code examples for accessing the Chain.io portal API.
 This is the API you would use to perform administrative functions for Chain.io including things like
 
 * [Retrieving data files](./examples/getAttachment.js)
-* Checking the status of a flow execution
-* Managing user accounts
+* [Adding new users](./examples/addUser.js)
 
 All of the examples assume that you pass your Chain.io API Keys `CLIENT_ID` and `CLIENT_SECRET` in to your process as an environment variable like:
 
