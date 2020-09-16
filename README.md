@@ -11,3 +11,5 @@ This is the API you would use to perform administrative functions for Chain.io i
 All of the examples assume that you pass your Chain.io API Keys `CLIENT_ID` and `CLIENT_SECRET` in to your process as an environment variable like:
 
 `CLIENT_ID=ABC CLIENT_SECRET=secretpass node ./examples/getAttachment.js`
+
+The only dependency for these examples is the [Got](https://github.com/sindresorhus/got) library for HTTP requests.  You can substitute any HTTP library with minor adjustments to the code.
