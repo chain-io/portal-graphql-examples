@@ -15,6 +15,11 @@ const webhookContent = {
 
 const CLIENT_ID = process.env.CLIENT_ID
 const CLIENT_SECRET = process.env.CLIENT_SECRET
+/**
+ * The organization / company uuid you want to establish permissions as.  
+ * For most API keys, you will only have one, but an API key can be granted access to multiple companies
+ **/
+const COMPANY_UUID = process.env.COMPANY_UUID
 const URL = "https://portal-api.chain.io"
 
 
@@ -97,6 +102,6 @@ async function run(companyUUID, partnerUUID, invocationUUID) {
 }
 
 
-run(webhookContent.organization_uuid, webhookContent.partner_uuid, webhookContent.invocation_uuid)
+run(COMPANY_UUID, webhookContent.partner_uuid, webhookContent.invocation_uuid)
 .then(console.log)
 .catch(console.error)
