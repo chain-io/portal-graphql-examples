@@ -12,7 +12,7 @@ All of the examples assume that you pass your Chain.io API Keys `CLIENT_ID` and 
 
 `CLIENT_ID=ABC CLIENT_SECRET=secretpass node ./examples/getAttachment.js`
 
-The only dependency for these examples is the [Got](https://github.com/sindresorhus/got) library for HTTP requests.  You can substitute any HTTP library with minor adjustments to the code.
+Scripts may have some basic dependecies that you'll need to install like `got`, `lodash`, `request`, etc. See the import statements at the top of each script.
 
 ## Getting and using an API Key
 
