@@ -6,6 +6,7 @@ This is the API you would use to perform administrative functions for Chain.io i
 
 * [Retrieving data files](./examples/getAttachment.js)
 * [Adding new users](./examples/addUser.js)
+* [Resubmitting flows based on search parameters](./examples/resubmitFlowsBasedOnSearch.js)
 
 All of the examples assume that you pass your Chain.io API Keys `CLIENT_ID` and `CLIENT_SECRET` in to your process as an environment variable like:
 
