@@ -24,7 +24,7 @@ const URL = "https://portal-api.chain.io"
 
 
 async function getAccessToken() {
-  const response = await got('https://chainio.auth0.com/oauth/token', {
+  const response = await got('https://portal-api.chain.io/oauth/token', {
     method: 'POST',
     headers: { 'content-type': 'application/json' },
     json: {
