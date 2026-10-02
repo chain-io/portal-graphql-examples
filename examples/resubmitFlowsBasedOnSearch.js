@@ -114,7 +114,7 @@ async function asyncRequest (options) {
 async function getAuthToken () {
   const options = {
     method: 'POST',
-    url: 'https://chainio.auth0.com/oauth/token',
+    url: 'https://portal-api.chain.io/oauth/token',
     headers: { 'content-type': 'application/json' },
     body: JSON.stringify(secrets)
   }
